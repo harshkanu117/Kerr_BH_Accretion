@@ -10,6 +10,6 @@ This repository contains the core computational engine and analysis notebooks de
 * Relativistic Radiative Transfer & Doppler Shifting: Implements exact invariant energy calculations ($E_{em} = -p_\mu u^\mu$) coupling particle 4-velocities with photon 4-momenta at the equatorial plane intersection, scaling pixel flux by $I \propto g^4$ to capture kinematic Doppler beaming and gravitational redshift.
 
 ## Core Physics Implemented
-*1 Kerr Metric & Inverse Metric Tensors: Full analytical formulation accounting for frame-dragging (Lense-Thirring effect) and horizon geometry across spins from $a = 0$ up to extreme Kerr limits.
-*2 Doppler Beaming & Redshift ($g$-factor): Quantifies how co-rotating and counter-rotating infall geometries modify observed photon frequencies and intensities.
-*3 Photon Sphere & Shadow Formation: Resolves primary emission bands, critical curves, and higher-order lensed photon rings.
+1. Kerr Metric & Inverse Metric Tensors: Full analytical formulation accounting for frame-dragging (Lense-Thirring effect) and horizon geometry across spins from $a = 0$ up to extreme Kerr limits.
+2. Doppler Beaming & Redshift ($g$-factor): Quantifies how co-rotating and counter-rotating infall geometries modify observed photon frequencies and intensities.
+3. Photon Sphere & Shadow Formation: Resolves primary emission bands, critical curves, and higher-order lensed photon rings.
