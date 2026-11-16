@@ -8,3 +8,8 @@ This repository contains the core computational engine and analysis notebooks de
 * Robust Geodesic Integration Engine: Utilizes adaptive Runge-Kutta integration (scipy.integrate.solve_ivp with RK45) to track both massive particle timelike geodesics and null geodesics (photon paths), incorporating strict event horizon boundary checks and polar coordinate singularity handling.
 * Backward Ray-Tracing Pipeline: Shoots rays backward from a virtual observer screen across an impact parameter grid ($\alpha, \beta$), tracing them through curved spacetime to map the black hole shadow and intercept equatorial accretion structures.
 * Relativistic Radiative Transfer & Doppler Shifting: Implements exact invariant energy calculations ($E_{em} = -p_\mu u^\mu$) coupling particle 4-velocities with photon 4-momenta at the equatorial plane intersection, scaling pixel flux by $I \propto g^4$ to capture kinematic Doppler beaming and gravitational redshift.
+
+## Core Physics Implemented
+*1 Kerr Metric & Inverse Metric Tensors: Full analytical formulation accounting for frame-dragging (Lense-Thirring effect) and horizon geometry across spins from $a = 0$ up to extreme Kerr limits.
+*2 Doppler Beaming & Redshift ($g$-factor): Quantifies how co-rotating and counter-rotating infall geometries modify observed photon frequencies and intensities.
+*3 Photon Sphere & Shadow Formation: Resolves primary emission bands, critical curves, and higher-order lensed photon rings.
